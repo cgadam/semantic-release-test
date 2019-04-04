@@ -1,5 +1,13 @@
 Thirdlove Shopify Changelog
 
+## [2.3.2](https://github.com/cgadam/semantic-release-test/compare/v2.3.1...v2.3.2) (2019-04-04)
+
+
+### Bug Fixes
+
+* **build:** add omg comment ([32f64b9](https://github.com/cgadam/semantic-release-test/commit/32f64b9))
+* **build:** remove omg comment ([a0d763a](https://github.com/cgadam/semantic-release-test/commit/a0d763a))
+
 ## [2.3.1](https://github.com/cgadam/semantic-release-test/compare/v2.3.0...v2.3.1) (2019-04-04)
 
 
