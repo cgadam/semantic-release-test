@@ -14,28 +14,25 @@ jobs:
           paths:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
-
-release:
-    docker:
-      - image: circleci/node:10.15.3
-    steps:
-      - checkout
-      - restore_cache:
-          keys:
-            - v1-dependencies-{{ checksum "package.json" }}
-      - run: npm install
-      - run: npx semantic-release
+  release:
+      docker:
+        - image: circleci/node:10.15.3
+      steps:
+        - checkout
+        - restore_cache:
+            keys:
+              - v1-dependencies-{{ checksum "package.json" }}
+        - run: npm install
+        - run: npx semantic-release
 
 workflows:
   version: 2
   release:
     jobs:
-      - build:
-          filters:
-            branches:
-              only:
-                - master
+      - build
       - release:
+          requires:
+            - build
           filters:
             branches:
               only:
