@@ -1,0 +1,24 @@
+{
+  "name": "semantic-release-test",
+  "version": "1.0.0",
+  "description": "A node-based app for testing semantic release",
+  "main": "index.js",
+  "scripts": {
+    "sayHi": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgadam/semantic-release-test.git"
+  },
+  "keywords": [
+    "semantic-release",
+    "test",
+    "version"
+  ],
+  "author": "Christian Adam <christian.g.adam@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgadam/semantic-release-test/issues"
+  },
+  "homepage": "https://github.com/cgadam/semantic-release-test#readme"
+}
