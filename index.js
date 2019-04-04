@@ -7,5 +7,3 @@ const { message } = argv;
  * This is a greeting module
  */
 console.log(`Message: ${message}`);
-
-// OMG
