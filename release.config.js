@@ -8,6 +8,10 @@ module.exports = {
     ["@semantic-release/npm", {
       "npmPublish": false,
     }],
+    ["@semantic-release/changelog", {
+      "changelogFile": "CHANGELOG.md",
+      "changelogTitle": "Thirdlove Shopify Changelog",
+    }],
     '@semantic-release/github'
   ],
 };
