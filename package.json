@@ -15,6 +15,7 @@
     "test",
     "version"
   ],
+  "private": true,
   "author": "Christian Adam <christian.g.adam@gmail.com>",
   "license": "MIT",
   "bugs": {
