@@ -6,6 +6,6 @@ const { message } = argv;
 /**
  * This is a greeting module
  */
-console.log('***********');
+console.log('*********');
 console.log(message);
-console.log('***********');
+console.log('*********');
