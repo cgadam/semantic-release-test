@@ -24,7 +24,7 @@ release:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
       - run: npm install
-      # - run: npx semantic-release
+      - run: npx semantic-release
 
 workflows:
   version: 2
