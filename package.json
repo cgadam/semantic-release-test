@@ -4,7 +4,7 @@
   "description": "A node-based app for testing semantic release",
   "main": "index.js",
   "scripts": {
-    "sayHi": "node index.js"
+    "sayHi": "./index.js Hi"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/cgadam/semantic-release-test/issues"
   },
-  "homepage": "https://github.com/cgadam/semantic-release-test#readme"
+  "homepage": "https://github.com/cgadam/semantic-release-test#readme",
+  "devDependencies": {},
+  "bin": {
+    "say": "./index.js"
+  }
 }
