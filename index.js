@@ -8,3 +8,4 @@ const { message } = argv;
  */
 console.log(`Message: ${message}`);
 
+// OMG
