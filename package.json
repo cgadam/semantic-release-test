@@ -4,7 +4,7 @@
   "description": "A node-based app for testing semantic release",
   "main": "index.js",
   "scripts": {
-    "sayHi": "./index.js Hi"
+    "sayHi": "./index.js --message \"Hello it's me\""
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   },
   "bin": {
     "say": "./index.js"
+  },
+  "dependencies": {
+    "yargs": "^13.2.2"
   }
 }

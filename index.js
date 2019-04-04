@@ -1,6 +1,7 @@
 #!/usr/bin/env node
+const argv = require('yargs').argv
 
-const message = process.argv[2];
+const { message } = argv;
 
 /**
  * This is a greeting module
